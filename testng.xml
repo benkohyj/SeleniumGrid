@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="run tests in parallel" parallel="methods" 
+	configfailurepolicy="continue" thread-count="10">
+	
+  <test name="Note4Eribank">
+  		<parameter name="browserName" value="Samsung Note4" />
+  		<parameter name="platformVersion" value="6.0.1" />
+  		<parameter name="platformName" value="Android" />
+  		<parameter name="deviceName" value="Samsung Note4" />
+		<parameter name="driverHost" value="172.19.202.201" />
+		<parameter name="driverPort" value="4444" />
+		
+		<parameter name="APP"
+			value="C:\\Users\\benkohyj\\AppData\\Roaming\\appiumstudio\\original-apks\\com.experitest.ExperiBank.LoginActivity.2.apk" />
+		<parameter name="APP_ACTIVITY"
+			value=".LoginActivity" />
+		<parameter name="APP_PACKAGE" value="com.experitest.ExperiBank" />
+		 <parameter name="udid" value="4222c2db" /> 	 
+    <classes>
+      <class name="androidscript.TestNGwithNote4"/>
+    </classes>
+  </test> <!-- Note4 -->
+    <test name="S4Eribank">
+  		<parameter name="browserName" value="Samsung S4" />
+  		<parameter name="platformVersion" value="5.0.1" />
+  		 <parameter name="platformName" value="Android" />
+  		<parameter name="deviceName" value="Samsung S4" />
+		<parameter name="driverHost" value="172.19.202.201" />
+		<parameter name="driverPort" value="4444" />
+
+		<parameter name="APP"
+			value="C:\\Users\\benkohyj\\AppData\\Roaming\\appiumstudio\\original-apks\\com.experitest.ExperiBank.LoginActivity.2.apk" />
+		<parameter name="APP_ACTIVITY"
+			value=".LoginActivity" />
+		<parameter name="APP_PACKAGE" value="com.experitest.ExperiBank" />
+		 <parameter name="udid" value="4b816499" />  	 
+    <classes>
+      <class name="androidscript.TestNGwithAndroid"/>
+    </classes>
+  </test> <!-- S4 -->
+     <test name="Chrome">
+  		<parameter name="browserName" value="Chrome" />
+		<parameter name="driverHost" value="172.19.202.201" />
+		<parameter name="driverPort" value="4444" />
+
+		<parameter name="BROWSER_NAME"
+			value="BrowserType.CHROME" />
+		<parameter name="PLATFORM" value="Platform.ANY" />	 
+    <classes>
+      <class name="androidscript.TestNGwithChrome"/>
+    </classes>
+  </test> <!-- Chrome --> 
+  
+</suite> <!-- Suite -->

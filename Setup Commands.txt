@@ -1,0 +1,4 @@
+java -jar selenium-server-standalone-3.141.59.jar -role hub -port 4444
+java -Dwebdriver.chrome.driver=C:\Users\benkohyj\Desktop\chromedriver_win32\chromedriver.exe -jar selenium-server-standalone-3.141.59.jar -role node -hub http://172.19.202.201:4444/grid/register
+appium -p 4723 --nodeconfig C:\Users\benkohyj\Desktop\nodeConfig.json
+appium -p 4724 --nodeconfig C:\Users\benkohyj\Desktop\nodeConfigNote4.json

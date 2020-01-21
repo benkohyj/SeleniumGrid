@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [run tests in parallel]" parallel="tests">
+  <test name="S4Eribank(failed)" parallel="tests">
+    <parameter name="APP_ACTIVITY" value=".LoginActivity"/>
+    <parameter name="APP" value="C:\\Users\\benkohyj\\AppData\\Roaming\\appiumstudio\\original-apks\\com.experitest.ExperiBank.LoginActivity.2.apk"/>
+    <parameter name="driverPort" value="4444"/>
+    <parameter name="driverHost" value="172.19.202.201"/>
+    <parameter name="platformVersion" value="5.0.1"/>
+    <parameter name="browserName" value="Samsung S4"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="4b816499"/>
+    <parameter name="deviceName" value="Samsung S4"/>
+    <parameter name="APP_PACKAGE" value="com.experitest.ExperiBank"/>
+    <classes>
+      <class name="androidscript.TestNGwithAndroid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="S4EriBank"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- androidscript.TestNGwithAndroid -->
+    </classes>
+  </test> <!-- S4Eribank(failed) -->
+  <test name="Note4Eribank(failed)" parallel="tests">
+    <parameter name="APP_ACTIVITY" value=".LoginActivity"/>
+    <parameter name="APP" value="C:\\Users\\benkohyj\\AppData\\Roaming\\appiumstudio\\original-apks\\com.experitest.ExperiBank.LoginActivity.2.apk"/>
+    <parameter name="driverPort" value="4444"/>
+    <parameter name="driverHost" value="172.19.202.201"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="browserName" value="Samsung Note4"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="4222c2db"/>
+    <parameter name="deviceName" value="Samsung Note4"/>
+    <parameter name="APP_PACKAGE" value="com.experitest.ExperiBank"/>
+    <classes>
+      <class name="androidscript.TestNGwithNote4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Note4EriBank"/>
+        </methods>
+      </class> <!-- androidscript.TestNGwithNote4 -->
+    </classes>
+  </test> <!-- Note4Eribank(failed) -->
+</suite> <!-- Failed suite [run tests in parallel] -->

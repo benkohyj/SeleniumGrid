@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="run tests in parallel" duration-ms="104391" started-at="2020-01-20T03:30:16Z" finished-at="2020-01-20T03:32:00Z">
+    <groups>
+    </groups>
+    <test name="Note4Eribank" duration-ms="53281" started-at="2020-01-20T03:30:16Z" finished-at="2020-01-20T03:31:09Z">
+      <class name="androidscript.TestNGwithNote4">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:androidscript.TestNGwithNote4@6d4b1c02]" name="setUp" is-config="true" duration-ms="36713" started-at="2020-01-20T11:30:16Z" finished-at="2020-01-20T11:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Note4EriBank()[pri:0, instance:androidscript.TestNGwithNote4@6d4b1c02]" name="Note4EriBank" duration-ms="14944" started-at="2020-01-20T11:30:53Z" finished-at="2020-01-20T11:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Note4EriBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:androidscript.TestNGwithNote4@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1604" started-at="2020-01-20T11:31:08Z" finished-at="2020-01-20T11:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- androidscript.TestNGwithNote4 -->
+    </test> <!-- Note4Eribank -->
+    <test name="S4Eribank" duration-ms="38808" started-at="2020-01-20T03:31:09Z" finished-at="2020-01-20T03:31:48Z">
+      <class name="androidscript.TestNGwithAndroid">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:androidscript.TestNGwithAndroid@271053e1]" name="setUp" is-config="true" duration-ms="21633" started-at="2020-01-20T11:31:09Z" finished-at="2020-01-20T11:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="S4EriBank()[pri:0, instance:androidscript.TestNGwithAndroid@271053e1]" name="S4EriBank" duration-ms="16229" started-at="2020-01-20T11:31:31Z" finished-at="2020-01-20T11:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- S4EriBank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:androidscript.TestNGwithAndroid@271053e1]" name="tearDown" is-config="true" duration-ms="940" started-at="2020-01-20T11:31:47Z" finished-at="2020-01-20T11:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- androidscript.TestNGwithAndroid -->
+    </test> <!-- S4Eribank -->
+    <test name="Chrome" duration-ms="12283" started-at="2020-01-20T03:31:48Z" finished-at="2020-01-20T03:32:00Z">
+      <class name="androidscript.TestNGwithChrome">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:androidscript.TestNGwithChrome@7085bdee]" name="SetUp" is-config="true" duration-ms="5354" started-at="2020-01-20T11:31:48Z" finished-at="2020-01-20T11:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:androidscript.TestNGwithChrome@7085bdee]" name="Test1" duration-ms="6868" started-at="2020-01-20T11:31:53Z" finished-at="2020-01-20T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="EndWork()[pri:0, instance:androidscript.TestNGwithChrome@7085bdee]" name="EndWork" is-config="true" duration-ms="58" started-at="2020-01-20T11:32:00Z" finished-at="2020-01-20T11:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndWork -->
+      </class> <!-- androidscript.TestNGwithChrome -->
+    </test> <!-- Chrome -->
+  </suite> <!-- run tests in parallel -->
+</testng-results>
